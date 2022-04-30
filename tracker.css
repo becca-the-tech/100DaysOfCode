@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(90deg, rgb(112, 101, 152), rgb(233, 67, 132))
+}
+
+.container {
+    margin: 3% 10%;
+    background: rgba(255,255,255,0.5);
+    padding: 3% 10%;
+    border-radius: 30%;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h2 {
+    display: block;
+}
+
+.intro {
+    margin-top: 1%;
+    margin-bottom: 8%;
+}
+
+.day {
+    border: 1px solid black;
+    min-height: 50px;
+    max-width: 28%;
+    padding: 1% 2%;
+}
+
+.day h3, h2{
+    color:rgb(233, 67, 132);
+}
+
+h2 {
+    background: rgba(0,0,0,0.7);
+    margin: 0 3% 0 0;
+    padding-left: 3%;
+}
+
+.day span {
+    font-weight: bold;
+    color:rgb(112, 101, 152);
+    align-self: flex-end;
+}
+
+.future {
+    background: rgba(67, 186, 233, 0.3);
+}
