@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1-- Working with Forms</title>
+    <link href="day1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Working with Forms</h1>
+        <p>Something I've been wanting to do is to create a form that goes to local storage saving info I want to
+            eventually
+            put into my Bullet Journal since I don't check it all of the time. I don't like how the Bullet Journal app
+            automatically deletes things after 3 days.</p>
+        <hr>
+        <main>
+            <h2>Bullet Journal Inputs</h2>
+            <form action="" method="GET">
+                <label for="date">Activity's Date</label>
+                <input type="date" name="date" id="date">
+
+                <br><br>
+                <label for="time">How long did you spend working? </label>
+                <input type="number" name="time" id="time" placeholder="#" min="0" max="120"> minutes
+                <br><br>
+                <label>What did you work on during that time?
+                    <input type="text" name="activityName" id="activityName" placeholder="Ex: CodeWars">
+                </label>
+                <br><br>
+                <label>Were there any one-time events that were done?
+                    <input type="text" name="events" id="events" placeholder="Ex: someone's birthday">
+                </label>
+                <br><br>
+                <label for="notes">Notes: </label><br>
+                <textarea name="notes" id="notes" rows="5" cols="30"></textarea>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
