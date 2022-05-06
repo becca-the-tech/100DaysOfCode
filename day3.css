@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(90deg, rgb(193, 30, 91), rgb(196, 213, 167))
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.35);
+    width: 40%;
+    min-height: 100px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 2%;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal Boxes</title>
+    <link rel="stylesheet" href="day3.css">
+</head>
+
+<body>
+    <h1>Goal Boxes Using Local Storage</h1>
+    <main>
+        <section class="box daily">
+            <h2>Daily Goals</h2>
+            <div class="display">
+                This is where I will display my daily goals
+                <ul>
+                    <li class="goal1">Goal 1: <button class="updateGoal1">Update</button></li>
+                    <li class="goal2">Goal 2: <button class="updateGoal2">Update</button></li>
+                    <li class="goal3">Goal 3: <button class="updateGoal3">Update</button></li>
+                </ul>
+            </div>
+            <button class="showGoals">Show Goals</button>
+            <!-- Feature to add later, for now working on core functionality
+
+                <button class="toggle">Click to add input field</button> -->
+            <br>
+            <label>Add a new daily goal
+                <input type="text" name="dailyGoal" id="dailyGoal">
+            </label>
+            <button class="add">Add Goal!</button>
+        </section>
+
+        <section class="box weekly"></section>
+        <section class="box monthly"></section>
+        <section class="box yearly"></section>
+    </main>
+    <script src="day3.js"></script>
+</body>
+
+</html>
