@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="day5.css">
+</head>
+
+<body>
+    <h1>Planner</h1>
+    <main>
+        <div class="plan">
+            <h2 id="dailyPlan"><i class="bi bi-save iconDaily"></i>Daily Plan <button
+                    class="refreshDaily refresh">Refresh</button></h2>
+            <label>Add goal: <input name="goalDaily" id="goalDaily" type="text"> </label>
+            <button class="add addDaily">Add item</button>
+            <ul class="ulDaily">
+
+            </ul>
+        </div>
+
+        <div class="plan">
+            <h2 id="WeeklyPlan"><i class="bi bi-save iconWeekly"></i>Weekly Plan <button
+                    class="refreshWeekly refresh">Refresh</button></h2>
+            <label>Add goal: <input name="goalWeekly" id="goalWeekly" type="text"> </label>
+            <button class="add addWeekly">Add item</button>
+            <ul class="ulWeekly">
+
+            </ul>
+        </div>
+
+        <div class="plan">
+            <h2 id="monthlyPlan"><i class="bi bi-save iconMonthly"></i>Monthly Plan <button
+                    class="refreshMonthly refresh">Refresh</button></h2>
+            <label>Add goal: <input name="goalMonthly" id="goalMonthly" type="text"> </label>
+            <button class="add addMonthly">Add item</button>
+            <ul class="ulMonthly">
+
+            </ul>
+        </div>
+
+        <div class="plan">
+            <h2 id="yearlyPlan"><i class="bi bi-save iconYearly"></i>Yearly Plan <button
+                    class="refreshYearly refresh">Refresh</button></h2>
+            <label>Add goal: <input name="goalYearly" id="goalYearly" type="text"> </label>
+            <button class="add addYearly">Add item</button>
+            <ul class="ulYearly">
+        </div>
+
+        <div class="other-info">
+            <h3 id="priorities"><i class="bi bi-save iconPriorities"></i>Priorities<button
+                    class="refreshPriorities refresh">Refresh</button></h3>
+            <label>Add goal: <input name="goalPriorities" id="goalPriorities" type="text"> </label>
+            <button class="add addPriorities">Add item</button>
+            <ul class="ulPriorities">
+        </div>
+
+        <div class="other-info">
+            <h3 id="gratitude"><i class="bi bi-save iconGratitude"></i>Gratitude<button
+                    class="refreshGratitude refresh">Refresh</button></h3>
+            <label>Add goal: <input name="goalGratitude" id="goalGratitude" type="text"> </label>
+            <button class="add addGratitude">Add item</button>
+            <ul class="ulGratitude">
+        </div>
+    </main>
+    <script src="day5.js"></script>
+</body>
+
+</html>
