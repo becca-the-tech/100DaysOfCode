@@ -4,7 +4,7 @@ body {
 
 .container {
     margin: 3% 10%;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
     padding: 3% 10%;
     border-radius: 30%;
 }
@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 2%;
 }
 
 h2 {
@@ -31,19 +32,20 @@ h2 {
     padding: 1% 2%;
 }
 
-.day h3, h2{
-    color:rgb(233, 67, 132);
+.day h3,
+h2 {
+    color: rgb(233, 67, 132);
 }
 
 h2 {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     margin: 0 3% 0 0;
     padding-left: 3%;
 }
 
 .day span {
     font-weight: bold;
-    color:rgb(112, 101, 152);
+    color: rgb(112, 101, 152);
     align-self: flex-end;
 }
 
