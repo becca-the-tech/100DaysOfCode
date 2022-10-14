@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Becca's Portfolio 📘</title>
+    <link href="day7.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="profile-img" src="images/Me_prof.jpg"
+            alt="me with a professional outfit and a background of a fake ocean wall hanging">
+        <h1>Hi, I'm Becca 📚 </h1>
+    </header>
+    <section class="about-me">
+        <h2>This is my about me.</h2>
+    </section>
+    <section class="work accent-color">
+        <h2>List of my projects</h2>
+        <div class="container projects">
+            <div class="project">
+                <h4>Book List</h4>
+                <img src="images/booklist_screenshot.png"
+                    alt="table displaying list of books, author, number of pages, audiobook length, and a column for if the book is currently  checked out in the library">
+                <p>This list was created so I can keep track between library books and books I own, whether ebook or
+                    audiobook, on what I'm currently reading. I like being able to see how many pages each book has and
+                    computing how much time I expect it to take to finish an audiobook or ebook, so JS does the
+                    computing for me based on percent done with the book.</p>
+                <a href="https://infinite-beyond-79502.herokuapp.com/" target="_blank">See project</a>
+            </div>
+
+            <div class="project">
+                <h4>Random Quote Generator</h4>
+                <img src="images/random_quote_generator.png"
+                    alt="list of 6 quotes on a page with the author (and book for some) where the quote came from, with an option to add another quote, and with icons to favorite a quote and to add it to a writing list">
+                <p>These quotes come from my Kindles dating back to 2014. I used Node's FS module to parse the kindle's
+                    "My Clippings.txt" file, and then saved the parsed data to MongoDB so there
+                    are over 1000 quotes listed. This page displays a random result of 6 quotes each time you refresh,
+                    and each quote has an icon to favorite it or add it to a writing list (since I have a physical
+                    journal I write quotes in).</p>
+                <a href="https://infinite-beyond-79502.herokuapp.com/quotes/random/6" target="_blank">See project</a>
+            </div>
+
+            <div class="project">
+                <h4>Video Course Learning Tracker</h4>
+                <img src="images/learning_tracker.png"
+                    alt="lists series of courses and within the courses are modules and the expected time for completion">
+                <p>This project was created so I could keep track of various video tutorials and each module's progress
+                    visually, across multiple platforms. Data saved to MongoDB, routes with
+                    Express, and lots of interactivity and dynamically calculated information.</p>
+                <a href="https://gentle-dawn-40473.herokuapp.com/" target="_blank">See project</a>
+            </div>
+
+            <div class="project">
+                <h4>Goal Boxes</h4>
+                <img src="images/goal_boxes.png"
+                    alt="boxes for daily, weekly, monthly, and yearly goals, along with a priorities box and a gratitude box">
+                <p>These boxes save data to localStorage and just create a nice visual for me to save data into my
+                    bullet journal when I'm ready to write info down</p>
+                <a href="https://becca-the-tech.github.io/100DaysOfCode/day5.html" target="_blank">See project</a>
+            </div>
+
+            <div class="project">
+                <h4>To Do List</h4>
+                <img src="images/todoList.png"
+                    alt="to do list with a gradient background and icons to mark as complete or trash an item">
+                <p>Pretty todo list that has a nice animation when trash button is clicked, can save items in local
+                    storage and retrieves those items from local storage</p>
+                <a href="https://becca-the-tech.github.io/ReviewPages/todo_list_tutorial/index.html" target="_blank">See
+                    project</a>
+            </div>
+
+            <div class="project">
+                <h4>Gradient Background Picker</h4>
+                <img src="images/gradient_picker.png"
+                    alt="two random colors in a linear gradient, with a box displaying what rgb values generate that gradient">
+                <p>This simplistic project just uses vanilla JS to randomly pick values for the rgb of 2-3 colors and
+                    then converts them into a gradient background each time the button is pressed. Helps me come up with
+                    new backgrounds for many of my projects.</p>
+                <a href="https://becca-the-tech.github.io/ReviewPages/100Devs/background-picker/" target="_blank">See
+                    project</a>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="call-to-action">
+        <h3>Reach out to me via: </h3>
+    </section>
+
+    <script src="day7.js"></script>
+</body>
+
+</html>

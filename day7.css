@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: lightblue;
+    padding: 80px;
+    text-align: center;
+    min-height: 75px;
+}
+
+
+.profile-img {
+    margin-bottom: 40px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+section {
+    min-height: 500px;
+    text-align: center;
+    padding-top: 80px;
+    background: #252525;
+    color: lightblue;
+}
+
+.accent-color {
+    background: lightblue;
+    color: #252525;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2,
+h3 {
+    font-size: 48px;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.project {
+    height: 650px;
+    width: 25%;
+    border: 3px dotted white;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.project h4 {
+    padding: 10px;
+    color: rgb(1, 1, 161);
+    font-size: 20px;
+    text-shadow: 0px 0px 2px whitesmoke;
+    text-decoration: underline rgb(1, 1, 161);
+}
+
+.project img {
+    height: 350px;
+    width: 100%;
+}
+
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    background: rgb(74, 130, 235);
+    padding: 8px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.project a:hover,
+.project a:focus {
+    background: navy;
+}
+
+.project p {
+    height: 175px;
+    padding: 0 10px;
+}
