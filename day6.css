@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://media.giphy.com/media/GiXbMe92rt9NS/giphy.gif");
+    background-size: cover;
+}
+
+h1 {
+    text-shadow: 0px 0px 5px navy;
+    color: rgb(5, 178, 5);
+    padding: 15px 45px;
+    text-align: center;
+    margin-left: 5%;
+}
